@@ -10,6 +10,12 @@
         "prefix": "/app/extensions/Plugins/Guitarix",
         "prepend-pkg-config-path": "/app/extensions/Plugins/Guitarix/lib/pkgconfig:/app/extensions/Plugins/Guitarix/share/pkgconfig"
     },
+    "cleanup": [
+        "/bin",
+        "/include",
+        "/lib/cmake",
+        "/lib/lv2"
+    ],
     "modules": [
         {
             "name": "boost",
