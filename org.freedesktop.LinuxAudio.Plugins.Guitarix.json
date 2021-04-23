@@ -1,6 +1,5 @@
 {
     "app-id": "org.freedesktop.LinuxAudio.Plugins.Guitarix",
-    "branch": "20.08",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "20.08",
     "sdk": "org.freedesktop.Sdk",
