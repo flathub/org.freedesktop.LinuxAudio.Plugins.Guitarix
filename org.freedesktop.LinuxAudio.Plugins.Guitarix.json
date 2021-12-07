@@ -90,8 +90,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/project/guitarix/guitarix/guitarix2-0.42.1.tar.xz",
-                    "sha256": "797e46e07148fba89e46fac4efe73a5b3a98f070bca85db3d143de781b142c80"
+                    "url": "https://github.com/brummer10/guitarix/releases/download/V0.43.0/guitarix2-0.43.0.tar.xz",
+                    "sha256": "482655fe668377b30befe3cdc26e9bf8b86a785b5c147abedffebaf1ed8bfca0"
                 },
                 {
                     "type": "patch",
@@ -99,13 +99,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "gx_no_glibmm.patch",
-                    "strip-components": 2
-                },
-                {
-                    "type": "patch",
-                    "path": "gx_no_sigc.patch",
-                    "strip-components": 2
+                    "path": "gx_no_glibmm.patch"
                 },
                 {
                     "type": "file",
